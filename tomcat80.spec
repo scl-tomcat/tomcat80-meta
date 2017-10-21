@@ -21,7 +21,7 @@
 
 Summary: Package that installs %scl
 Name: %scl_name
-Version: 1.0.0
+Version: 1.0.1
 Release: 1%{?dist}
 License: GPLv2+
 Requires: %{scl_prefix}tomcat
@@ -89,3 +89,6 @@ mkdir -p %{buildroot}/%{_scl_prefix}
 %{_root_sysconfdir}/rpm/macros.%{scl_name_base}-scldevel
 
 %changelog
+* Sat Oct 21 2017 Romain Philibert <Filirom1@gmail.com> 1.0.1-1
+- new package built with tito
+
