@@ -7,7 +7,7 @@
 %else
 %global scl_name_prefix sclt-
 %global scl_name_base tomcat
-%global scl_name_version 70
+%global scl_name_version 80
 
 %global scl %{scl_name_prefix}%{scl_name_base}%{scl_name_version}
 %endif
